@@ -9,9 +9,9 @@ const { logger } = utils || {}
 program
   .version('0.1.0')
   .usage('[options] <file ...>')
-  .option('-p, --port <port>', 'Server port', parseInt, 3000)
-  .option('-u, --url <url>', 'Redirect to url', String)
-  .option('-c, --cookie', 'Use cookie')
+  .option('-p, --port <port>', 'server port', parseInt, 3000)
+  .option('-u, --url <url>', 'redirect to url', String)
+  .option('-c, --cookie', 'should use cookie')
 
 function run() {
   program.parse(process.argv)
