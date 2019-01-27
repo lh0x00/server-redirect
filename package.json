@@ -1,0 +1,38 @@
+{
+  "name": "server-redirect",
+  "version": "0.1.0",
+  "description": "a server redirect for using node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --config .eslintrc . --ignore-path .gitignore",
+    "lint:fix": "eslint --config .eslintrc . --ignore-path .gitignore --fix"
+  },
+  "keywords": [
+    "server",
+    "redirect",
+    "node",
+    "api",
+    "test",
+    "handler"
+  ],
+  "author": "Hieu Lam <lamhieu.vk@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamhieu-vk/server-redirect.git"
+  },
+  "bin": {
+    "redirector": "./src/cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
