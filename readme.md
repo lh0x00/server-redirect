@@ -1,6 +1,6 @@
 # server-redirect
 
-## about
+## About
 
 [![npm version][npm-version-image]][npm-url]
 [![npm downloads][npm-downloads-image]][npm-url]
