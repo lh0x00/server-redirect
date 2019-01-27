@@ -1,6 +1,6 @@
 {
   "name": "server-redirect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a server redirect for using node.js",
   "main": "src/index.js",
   "scripts": {

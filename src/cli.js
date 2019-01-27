@@ -7,7 +7,7 @@ const redirector = require('./redirector')
 const { logger } = utils || {}
 
 program
-  .version('0.1.0')
+  .version('0.1.1')
   .usage('[options] <file ...>')
   .option('-p, --port <port>', 'server port', parseInt, 3000)
   .option('-u, --url <url>', 'redirect to url', String)
