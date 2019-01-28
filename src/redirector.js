@@ -49,7 +49,7 @@ async function redirector(url, port, options) {
     const info = server.address()
     const { address } = info || {}
     const host = getHost(address)
-    logger.info(`running at http://${host}:${port}`)
+    logger.info(`localhost is running at http://${host}:${port}`)
     return true
   })
 
