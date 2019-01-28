@@ -14,7 +14,7 @@ program
   .option('-u, --url <url>', 'redirect to url', String)
   .option('-c, --cookie', 'should use cookie')
   .option('-e, --expose', 'should expose')
-  .option('-s, --subdomain <subdomain>', 'subdomain for expose', String)
+  .option('-s, --subdomain <subdomain>', 'subdomain on the expose server', String)
 
 async function main() {
   program.parse(process.argv)
