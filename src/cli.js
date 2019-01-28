@@ -8,7 +8,7 @@ const exposer = require('./exposer')
 const { logger } = utils || {}
 
 program
-  .version('0.2.0')
+  .version('0.2.1')
   .usage('[options] <file ...>')
   .option('-p, --port <port>', 'server port', Number, 3000)
   .option('-u, --url <url>', 'redirect to url', String)

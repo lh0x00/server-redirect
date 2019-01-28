@@ -6,7 +6,7 @@
 [![npm downloads][npm-downloads-image]][npm-url]
 [![github issues][github-issues-image]][github-issues-url]
 
-a server redirect for using node.js. support create a redirect server support cors quickly.
+a tool help to setup server redirect support expose by localtunnel
 
 ## Installation
 

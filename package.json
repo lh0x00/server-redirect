@@ -1,7 +1,7 @@
 {
   "name": "server-redirect",
-  "version": "0.2.0",
-  "description": "a server redirect for using node.js",
+  "version": "0.2.1",
+  "description": "a tool help to setup server redirect support expose by localtunnel",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint --config .eslintrc . --ignore-path .gitignore",
