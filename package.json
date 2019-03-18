@@ -1,6 +1,6 @@
 {
   "name": "server-redirect",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "a tool help to setup server redirect support expose by localtunnel",
   "main": "src/index.js",
   "scripts": {

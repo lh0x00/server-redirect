@@ -1,5 +1,7 @@
 # server-redirect
 
+![image](https://user-images.githubusercontent.com/9839768/54528420-83273500-49af-11e9-979c-6a292aa9704f.png)
+
 ## About
 
 [![npm version][npm-version-image]][npm-url]
